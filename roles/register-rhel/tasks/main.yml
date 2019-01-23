@@ -1,0 +1,8 @@
+---
+
+- name: include register-rhel.yml
+  include: register-rhel.yml
+
+
+
+

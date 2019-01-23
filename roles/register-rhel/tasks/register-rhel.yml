@@ -1,0 +1,7 @@
+---
+
+# Register as user (joe_user) with password (somepass) and auto-subscribe to available content.
+
+- name: Register a RHEL node with Red Hat Network
+  command: subscription-manager register --username="{{ rhn_username }}" --password="{{ rhn_password }}"
+             
