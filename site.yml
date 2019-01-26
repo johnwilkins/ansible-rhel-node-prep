@@ -1,8 +1,0 @@
----
-
-- hosts: register
-  gather_facts: false
-  become: True
-  roles:
-   - register-rhel
-

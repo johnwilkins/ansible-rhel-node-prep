@@ -1,8 +1,10 @@
 ---
 
-- name: include register-rhel.yml
-  include: register-rhel.yml
+- name: include subscription-manager-register.yml
+  include: subscription-manager-register.yml
 
+- name: include subscription-manager-refresh.yml
+  include: subscription-manager-refresh.yml
 
-
-
+- name: include subscription-manager-attach-pool.yml
+  include: subscription-manager-attach-pool.yml

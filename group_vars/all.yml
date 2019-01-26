@@ -1,4 +1,4 @@
 
-rhn_username: <replace_with_username>
-rhn_password: <replace_with_password>
-
+rhn_username: <username> 
+rhn_password: <password>
+rhn_pool_id: <pool-id> 
