@@ -1,0 +1,4 @@
+---
+
+- name: Subscription Manager Refresh
+  command: subscription-manager refresh  

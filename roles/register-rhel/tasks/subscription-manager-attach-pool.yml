@@ -1,0 +1,2 @@
+- name: Subscription Manager Attach Pool
+  command: subscription-manager attach --pool={{ rhn_pool_id }}

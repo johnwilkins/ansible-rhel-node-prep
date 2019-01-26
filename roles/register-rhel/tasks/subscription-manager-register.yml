@@ -1,0 +1,16 @@
+---
+
+- name: Subscription Manager Status
+  command: subscription-manager status
+  register: subscription_manager_status
+  ignore_errors: True
+
+- name: Subscription Manager Register
+  command: subscription-manager register --force --username="{{ rhn_username }}" --password="{{ rhn_password }}"
+  when: subscription_manager_status.rc == 1
+
+
+
+
+
+   
