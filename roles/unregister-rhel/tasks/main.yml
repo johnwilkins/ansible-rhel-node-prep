@@ -1,0 +1,7 @@
+---
+
+- name: include subscription-manager-unregister.yml
+  include: subscription-manager-unregister.yml
+
+- name: include subscription-manager-remove.yml
+  include: subscription-manager-remove.yml

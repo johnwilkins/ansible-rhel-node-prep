@@ -1,0 +1,2 @@
+- name: Subscription Manager Remove Pool
+  command: subscription-manager remove --all
