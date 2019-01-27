@@ -1,6 +1,6 @@
 ---
 
-- hosts: register
+- hosts: rhel-servers
   gather_facts: false
   become: True
   roles:

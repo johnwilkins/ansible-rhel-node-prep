@@ -8,3 +8,6 @@
 
 - name: include subscription-manager-attach-pool.yml
   include: subscription-manager-attach-pool.yml
+
+- name: include subscription-manager-repos-disable-all.yml
+  include: subscription-manager-repos-disable-all.yml

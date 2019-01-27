@@ -1,0 +1,4 @@
+---
+
+- name: Subscription Manager Repos Disable All
+  command: subscription-manager repos --disable=*
