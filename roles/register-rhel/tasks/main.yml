@@ -11,3 +11,6 @@
 
 - name: include subscription-manager-repos-disable-all.yml
   include: subscription-manager-repos-disable-all.yml
+
+- name: include subscription-manager-repos-enable-rhel7-and-extras.yml
+  include: subscription-manager-repos-enable-rhel7-and-extras.yml
