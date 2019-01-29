@@ -1,12 +1,10 @@
 ---
 
 - name: Enabling RHEL 7 Server Repository
-  yum: 
-   enablerepos: rhel-7-server-rpms
+  command: subscription-manager repos --enable=rhel-7-server-rpms
 
 - name: Enabling RHEL 7 Server Extras Repository
-  yum:
-   enablerepos: rhel-7-server-extras-rpms
+  command: subscription-manager repos --enable=rhel-7-server-extras-rpms
 
 - name: Updating the System
   yum:
