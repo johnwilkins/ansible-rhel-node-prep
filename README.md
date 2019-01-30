@@ -62,3 +62,4 @@ The `unregister.yml` play performs the following steps using `command`:
 
 * `# subscription-manager repos --disable= '*'`: Disables all of the enabled repositories.
 
+* `# subscription-manager remove --all`: Removes the attached pool(s).
