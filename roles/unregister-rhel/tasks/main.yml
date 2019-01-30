@@ -1,5 +1,8 @@
 ---
 
+- name: include subscription-manager-repos-disable-all.yml
+  include: subscription-manager-repos-disable-all.yml
+
 - name: include subscription-manager-unregister.yml
   include: subscription-manager-unregister.yml
 
