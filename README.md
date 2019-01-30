@@ -6,7 +6,11 @@ When spinning up a cluster of RHEL servers, a common repetitive task includes re
 
 The playbooks are configured to retrieve a group of hosts called `rhel-servers`. This repository contains three user variables in `group_vars/all.yml`: namely, `rhn_username`, which is a username argument for the Red Hat network; `rhn_password`, which is a password argument for the Red Hat network; and, `rhn_pool_id`, which is a pool ID argument for a Red Hat SKU.
 
-The `register.yml` play requires a Red Hat Network pool ID. If you know the SKU, but not the pool ID, you may register a single node, refresh the system manually.
+The `register.yml` play requires a Red Hat Network pool ID. If you know the SKU, but not the pool ID, you may register a single node, refresh the system manually, and execute:
+
+`# subscription-manager list --available --all`
+
+This will list all of the available subscriptions. You may use the `--matches={string-literal|regex}` to highlight areas of the subscription with applications or SKUs of interest.
 
 ## Instructions
 
