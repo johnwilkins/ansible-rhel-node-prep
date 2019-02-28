@@ -56,6 +56,8 @@ The `register.yml` play performs the following steps using `command` or the `yum
 
 * `# subscription-manager repos --enable=rhel-7-server-extras-rpms`: Enables the `rhel-7-server-extras-rpms` repository.
 
+* `# subscription-manager repos --enable=rhel-7-server-rh-common-rpms`: Enables the `rhel-7-server-rh-common-rpms` repository.
+
 * Updates the system. Equivalent to `# yum update -y`.
 
 ## `unegister.yml` Details
