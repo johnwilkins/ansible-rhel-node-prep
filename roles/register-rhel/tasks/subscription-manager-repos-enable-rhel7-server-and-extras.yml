@@ -1,12 +1,12 @@
 ---
 
-- name: Subscription Manager Enable rhel-7-server-rpms
+- name: Subscription Manager Repos Enable rhel-7-server-rpms
   command: subscription-manager repos --enable=rhel-7-server-rpms
 
-- name: Subscription Manager Enable rhel-7-server-extras-rpms
+- name: Subscription Manager Repos Enable rhel-7-server-extras-rpms
   command: subscription-manager repos --enable=rhel-7-server-extras-rpms
 
-- name: Subscription Manager Enable rhel-7-server-rh-common-rpms
+- name: Subscription Manager Repos Enable rhel-7-server-rh-common-rpms
   command: subscription-manager repos --enable=rhel-7-server-rh-common-rpms
 
 - name: Updating the System
